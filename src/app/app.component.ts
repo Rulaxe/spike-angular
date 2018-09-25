@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    template: 'Hola mundo foundation <code>&lt;div&gt;</code>'
 })
 export class AppComponent {
-  title = 'My First Angular App!';
 }

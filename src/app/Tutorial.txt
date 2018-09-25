@@ -1,0 +1,21 @@
+.- Crear nuestro modulo aplicacion
+        npm run-script gModule portal
+    
+
+Realizar lo mismo para los modulos login y notFound
+        
+        npm run-script gModule login
+        npm run-script gModule notFound
+
+Generar nuestro component notFound
+        npm run-script ng g c notFound
+
+
+.- Crear nuestro router
+        src/app/app-routing.module.ts
+        y agregar la ruta not notFound
+
+
+
+
+
