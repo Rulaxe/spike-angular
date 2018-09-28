@@ -2,7 +2,19 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-    
+  {
+    path: 'welcome',
+    loadChildren: './welcome/welcome.module#WelcomeModule'
+  },
+  {
+    path: 'portal',
+    loadChildren: './portal/portal.module#PortalModule'
+  },
+  {
+    path: '**',
+    redirectTo: 'welcome',
+    pathMatch: 'full'
+  }
 ];
 
 
